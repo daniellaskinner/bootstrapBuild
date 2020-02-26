@@ -1,0 +1,80 @@
+body {
+    font-family: Josefin Sans;
+}
+
+h2, h3, h4, h5, span {
+    color: #FFFFFF;
+    font-family: josefin sans,arial,sans-serif;
+}
+
+.top-bar {
+    background: #000000;
+    padding: 10px 0;
+}
+
+.top-bar span .col-9 .social {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.fa {
+    color: #FFFFFF;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.search-top input {
+    color: #fff;
+    background: #212121;
+    width: inherit;
+    min-width: 300px;
+    border: none;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    padding: 4px 30px 4px 15px;
+    font-size: 16px;
+}
+
+.site-logo a {
+    color: #000000;
+}
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header .navbar .nav-link {
+    padding: 1.7rem 1rem;
+    font-size: 13px;
+    outline: none!important;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+section {
+    color: #ffffff;
+}
+
+.a-block.height-md {
+    height: 400px;
+}
+.a-block {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px;
+    position: relative;
+    margin-bottom: 30px;
+    height: 300px;
+}
